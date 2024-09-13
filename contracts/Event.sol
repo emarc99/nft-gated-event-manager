@@ -2,8 +2,6 @@
 
 pragma solidity ^0.8.20;
 
-import "hardhat/console.sol";
-
 contract EventContract {
     uint256 eventID;
 
