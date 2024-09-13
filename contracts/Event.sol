@@ -49,8 +49,7 @@ contract EventContract {
             newEvent.nftUrl = _nftUrl;
             newEvent.eventCreator = msg.sender;
             newEvent.eventStatus = EventStatus.pending;
-            // newEvent.eventAdmins = address memory[];
-            // newEvent.eventAtendees = address memory[];
+
         
 
         emit EventCreated(eventID, msg.sender, _name);
